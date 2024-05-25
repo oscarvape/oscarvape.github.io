@@ -3,39 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oscarvape</title>
+    <title>Oscarvape - Soporte Técnico y Cursos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://oscarvape.github.io/Icono_Oscarvp.png" type="image/png">
 </head>
 <body>
     <header>
-        <h1>osvp- Bienvenido a Mi Página Web</h1>
-    </header>
-    
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-    </nav>
-    
-    <main>
-        <section>
-            <h2>Acerca de Nosotros</h2>
-            <p>Somos una empresa comprometida.</p>
-        </section>
-        
-        <section>
-            <h2>Nuestros Servicios</h2>
+        <nav>
             <ul>
-                <li>Servicio 1</li>
-                <li>Servicio 2</li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
-        </section>
-    </main>
-    
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <img src="https://oscarvape.github.io/LogoJPG_Oscarvp.jpg" alt="Logo de Oscarvape">
+        <h1>Oscarvape</h1>
+        <p>Soporte técnico integral y capacitación especializada en cursos de tecnología para impulsar tu potencial.</p>
+    </section>
+
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <img src="https://oscarvape.github.io/Laptop.png" alt="Foto de Oscarvape">
+        <p>Mi nombre es Oscarvape. Soy ingeniero en sistemas computacionales con experiencia en soporte técnico, instalación de equipos de cómputo, cableado, creación de páginas web, cursos de WordPress, y manejo de software de respaldo para servidores.</p>
+        <h3>Experiencia</h3>
+        <ul>
+            <li>Soporte técnico</li>
+            <li>Instalación de equipos de cómputo</li>
+            <li>Cableado estructurado</li>
+            <li>Creación de páginas web</li>
+            <li>Cursos de WordPress</li>
+            <li>Software de respaldo para servidores</li>
+        </ul>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <div class="servicio">
+            <h3>Formateo de equipos</h3>
+            <p>Ofrecemos servicios de formateo de equipos para asegurar el rendimiento óptimo de tu computadora. Incluye respaldo de datos, instalación de sistemas operativos y configuración inicial.</p>
+        </div>
+        <div class="servicio">
+            <h3>Instalación de sistemas operativos</h3>
+            <p>Realizamos la instalación y configuración de diferentes sistemas operativos según tus necesidades, garantizando una integración perfecta con tu hardware.</p>
+        </div>
+        <div class="servicio">
+            <h3>Instalación de software</h3>
+            <p>Instalamos y configuramos el software necesario para tu trabajo diario, asegurando compatibilidad y rendimiento eficiente.</p>
+        </div>
+        <div class="servicio">
+            <h3>Creación de páginas web</h3>
+            <p>Desarrollamos páginas web a medida, optimizadas para SEO y con diseño responsivo, adaptadas a las necesidades de tu negocio.</p>
+        </div>
+        <div class="servicio">
+            <h3>Instalación de servidores</h3>
+            <p>Proveemos servicios de instalación y configuración de servidores, incluyendo máquinas virtuales, para mejorar la infraestructura tecnológica de tu empresa.</p>
+        </div>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="proyecto">
+            <h3><a href="https://marcodircio.github.io/" target="_blank">Página web de Marco Dircio</a></h3>
+            <p>Diseño y desarrollo de una página web profesional para Marco Dircio, con una interfaz moderna y funcional, optimizada para dispositivos móviles.</p>
+        </div>
+        <div class="proyecto">
+            <h3>Implementación de máquinas virtuales</h3>
+            <p>Configuración e implementación de entornos virtuales utilizando VMware para mejorar la eficiencia y escalabilidad de los recursos de TI.</p>
+        </div>
+        <div class="proyecto">
+            <h3>Instalación de servidores</h3>
+            <p>Implementación de servidores físicos y virtuales, configurados para satisfacer las necesidades específicas de empresas, garantizando seguridad y alto rendimiento.</p>
+        </div>
+    </section>
+
+    <section id="testimonios">
+        <h2>Testimonios</h2>
+        <p>"Oscarvape es increíble, su soporte técnico es rápido y eficiente." - Cliente A</p>
+        <p>"Los cursos de Oscarvape son muy claros y fáciles de seguir." - Cliente B</p>
+        <p>"Gracias a Oscarvape, nuestra empresa ahora tiene una página web profesional." - Cliente C</p>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <article>
+            <h3>Solución a problemas comunes en sistemas operativos</h3>
+            <p>En este artículo, exploramos cómo resolver los problemas más comunes que enfrentan los usuarios de sistemas operativos...</p>
+        </article>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Correo: <a href="mailto:oscarvape4@gmail.com">oscarvape4@gmail.com</a></p>
+        <p>Teléfono: <a href="tel:+524427087968">4427087968</a></p>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <h3>Redes Sociales</h3>
+        <ul>
+            <li><a href="https://www.facebook.com/oscarvape" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/oscarvape/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/in/oscar-valencia-peña-99695b265" target="_blank">LinkedIn</a></li>
+        </ul>
+    </section>
+
     <footer>
-        <p>Derechos de Autor © 2023. Todos los derechos reservados. Oscarvape</p>
+        <p>&copy; 2024 Oscarvape. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
